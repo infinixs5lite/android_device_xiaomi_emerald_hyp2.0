@@ -38,7 +38,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # some OrangeFox-specific settings
-$(call inherit-product, $(DEVICE_PATH)/fox_pearl.mk)
+$(call inherit-product, device/xiaomi/emerald/fox_emerald.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31
